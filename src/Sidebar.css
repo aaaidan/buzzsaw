@@ -1,0 +1,29 @@
+.sidebar {
+    background: black;
+    color: #888;
+    flex: 0 0 4em;
+    border-right: 2px solid black;
+}
+
+.sidebar .item {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: dodgerblue;
+    text-align: center;
+    background: none;
+    border: none;
+    font-family: "Menlo", monospace;
+    font-size: 100%;
+    transition: 0.3s background-color, 0.3s color;
+}
+
+.sidebar .item:focus {
+    outline: none;
+}
+
+.sidebar .item:hover {
+    background: dodgerblue;
+    color: white;
+    transition: none;
+}

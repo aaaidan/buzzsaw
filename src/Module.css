@@ -1,0 +1,23 @@
+.module {
+    background: red;
+    border: 2px solid maroon;
+    border-radius: 2px;
+    
+    position: absolute;
+
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+
+    transition: 0.3s background-color;
+}
+
+.module:hover, .module.isDragging {
+    background: pink;
+    transition: none;
+}
